@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | Andy Blog</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<a href="index.html">
+		<img src="images/banner.png">
+		</a>
+	</div>
+
+	<div id="top_content" >
+		<ul>
+			<li><a href="index.html" > Home </a></li>
+			<li><a href="howto.html"> How to? </a></li>
+			<li><a href="tips.html"> Tips </a></li>
+			<li> <a href="about.html">About</a></li>
+		</ul>
+	</div>
+
+	<div id="content">
+		<div id="article_plate">
+			<div id="headline">
+				How to add custom ROMS for Android ?
+			</div>	
+		
+			<div id="article">
+					<center><img src="images/roms.jpg"></center>
+				<br>
+				A custom ROM is simply a version of Android which third-party developers create for your device. They are meant to replace what is known as the stock ROM, or the version of Android that the manufacturer provided on your device. There are many reasons why you may want to try a custom ROM on your device. In most cases, they take away all the bloatware that is usually impossible to remove, they can potentially increase performance and/or improve battery life, and they may bump you up to a newer version of Android that the manufacturer may not offer.
+				<br><br>
+				You'll need to root your device to really take full advantage, which is simple enough but will take a little time to manage if you're new to the process. If you do decide to root then you may also consider Titanium Backup Pro for freezing unwanted apps.
+				<br><br>
+				There's a handful of different places you can look at to see if there's a custom ROM for your device, but I highly recommend that the first place you should check out is <span id="article_sub_point">CyanogenMod.</span> These guys are among the leaders of custom Android ROMs and therefore one of the most reputable. They offer support for a huge variety of phones, so a high percentage of you should be able to find a custom ROM from them.
+				<br><br><br>
+				<span id="article_point">Installing Your Custom ROM</span>
+				Once you've found a custom ROM that's right for you, you'll need to go through the process of installing it correctly. It's important to research the instructions for your device as they can vary from device to device. The general process is the same across devices, so this should give you a good idea of what you'll need to do.
+				<br><br>
+				<center><img src="images/rom1.jpg"></center>
+				<br>
+				The process of flashing a custom ROM onto your device is usually a two-step process. The first step is to flash a different recovery called ClockworkMod Recovery onto your device. The recovery is somewhat like a BIOS found on a computer as it lets you perform administrative tasks on the device without having Android loaded in memory. You'll need to change the recovery so that you can flash a different ROM much more easily.
+				<br><br>
+				The methods of doing so vary, so it's important to read the provided instructions. Sometimes you'll use something called fastboot to load the recovery onto your phone, while other times you'll use a tool called Heimdall. However, in my opinion, installing the new recovery is the hardest part. Once you're past this step you'll have an easier time.
+				<br><br>
+				<span id="article_point">Flashing The ROM</span>
+				The next step is to actually flash the custom ROM onto your device. Once the .zip file for the ROM is downloaded from the Internet and uploaded onto your phone's storage via USB cable, you'll need to turn off your phone and then turn it on to boot into the recovery. Booting into recovery takes a different button combination than just the Power button, and this varies among devices as well. To cover all devices, you'll probably be fine if you simply hold all the physical buttons on your phone while pressing the Power button, such as Power + Volume Down (and Up just to be sure) + Home (if it's a physical button).
+				<br><br>
+				Once the recovery has loaded, you'll need to navigate its menus to wipe the phone and then flash the .zip file onto the device. For ClockworkMod Recovery, the correct options are wipe data/factory reset and install zip from sdcard. Once this has completed, reboot the device normally and it should load your custom ROM.
+				<br><br>
+				If you installed a CyanogenMod custom ROM, it's also probably a good idea to flash the Google Apps package after flashing the ROM in order to be able to use the Play Store. These are kept separate for legal reasons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer">
+		<div id="how_to">
+			<span id="footer_title">Popular Posts</span>
+			<ul>
+				<a href="factoryreset.html" target="_blank"><li>How to do a factory reset on an Android?</li></a>
+				<a href="notification.html" target="_blank"><li>How to block annoying Ads in the notification bar?</li></a>
+				<a href="boot.html" target="_blank"><li>How to boot into recovery mode.</li></a>
+				<a href="typefaster.html" target="_blank"><li>How to type faster in Android?</li></a>
+				<a href="roms.html" target="_blank"><li>How to add custom ROM in Android?</li></a>
+			</ul>
+		</div>
+
+		<div id="contact">
+			<span id="footer_title">Redesigned proudly by</span>
+			<ul>
+				<li><a href="http://facebook.com/shrestha.umang.9" target="_blank">Facebook</a></li>
+				<li><a href="https://github.com/umangsthav2" target="_blank">Github</a></li>
+				<li><a href="https://www.instagram.com/umang_stha_v2.0/" target="_blank">Instagram</a></li>
+				<li><a href="https://behance.net/umangsthav2" target="_blank">Behance</a></li>
+				<li><a href="https://umangsthav2.github.io/US_Photography_Portfolio/" target="_blank">Photography</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+</body>
+</html>
